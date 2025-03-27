@@ -1,6 +1,5 @@
 a=789
 b=6.5
-
 print(a)
 
 b=6
@@ -9,15 +8,12 @@ b-=3
 # z+=3
 print(b)
 
-
-
 d=a<b
 print(d)
 
 # Logical operator
-
-
 e= True or False
+
 #Truth table for 'or'
 print("True or True is", True or True )
 print("True or False is", True or False)
