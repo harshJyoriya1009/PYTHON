@@ -1,8 +1,8 @@
-a={
-    "name": "Harsh",
-    "class":12,
-    "Year":2023
-}
+list=["Harsh", "Atif","Maharaj"]
 
-a.update({"Marks":22})
-print(a)
+name=input("Enter your name: ")
+
+if (name in list):
+    print(f"Yes!!! {name} is in the list")
+else:
+    print(f"Get lost {name}")
